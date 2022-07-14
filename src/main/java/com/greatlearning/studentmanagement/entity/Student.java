@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+// this entity class defines the student object and it's features
 @Entity
 @Table(name = "student")
 public class Student {

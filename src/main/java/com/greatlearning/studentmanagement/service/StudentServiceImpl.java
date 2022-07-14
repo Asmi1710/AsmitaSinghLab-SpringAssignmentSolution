@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.greatlearning.studentmanagement.entity.Student;
 import com.greatlearning.studentmanagement.repository.StudentRepository;
 
+// implementation of services mentioned in the interface
 @Repository
 public class StudentServiceImpl 
 	implements StudentService{

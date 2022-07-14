@@ -15,6 +15,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+
+// this entity class defines the user object and his attributes
 @Entity
 @Table(name = "users")
 public class User {

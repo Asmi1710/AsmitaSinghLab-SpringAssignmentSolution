@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import com.greatlearning.studentmanagement.entity.Role;
 import com.greatlearning.studentmanagement.entity.User;
 
-
+// this class helps to convert our defines user entity into userDetails type
 public class MyCustomUserDetails implements UserDetails{
 	private User user;
 

@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.greatlearning.studentmanagement.entity.Student;
 import com.greatlearning.studentmanagement.service.StudentService;
 
+
+// controller class for accepting request and sending response 
+// this controller is for handling individual student's addition, updation and deletion
 @Controller
 @RequestMapping("/student")
 public class StudentController {

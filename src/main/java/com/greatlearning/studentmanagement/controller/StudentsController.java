@@ -12,6 +12,10 @@ import org.springframework.web.servlet.ModelAndView;
 import com.greatlearning.studentmanagement.entity.Student;
 import com.greatlearning.studentmanagement.service.StudentService;
 
+
+//controller class for accepting request and sending response 
+//this controller is for displaying all records and handling error 403 (no permission for access)
+
 @Controller
 @RequestMapping("/students")
 public class StudentsController {
